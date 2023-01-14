@@ -1,0 +1,56 @@
+GET  https://devlog.onrender.com/api/posts
+
+###
+GET  http://localhost:5000/api/user/loggedin
+Content-Type: application/application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzODlmNDI4YTIzYTQ2NGJlYzQxZDUwNSIsImlhdCI6MTY3MDA0MzYxOCwiZXhwIjoxNjcyNjM1NjE4fQ.1n_4X7GRSyMo3wjwkYdZKR9J1ocLOM_2tKYXJoB2uPg
+
+
+### 
+POST http://localhost:5000/api/user/register
+Content-Type: application/json
+
+{
+    "name": "dave",
+    "email": "dave@gmail.com",
+    "password": "seatwcgw32"
+}
+
+###
+POST http://localhost:5000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "dave@gmail.com",
+    "password": "seatwcgw32"
+} 
+ 
+###
+GET https://devlog.onrender.com/api/posts/63a6549d01dd4d1ecd19880c
+
+###
+GET http://localhost:5000/api/posts/my-posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzODlmNDI4YTIzYTQ2NGJlYzQxZDUwNSIsImlhdCI6MTY3MTU1NDQ5NSwiZXhwIjoxNjc0MTQ2NDk1fQ.VtR-ZhpBlBS9Wu5ewymnP64JE1g2MJj1rXBdWDwUFa4
+
+
+
+###
+PUT http://localhost:5000/api/posts/edit/63a659aed244071e1d0a2f96
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzODlmNDI4YTIzYTQ2NGJlYzQxZDUwNSIsImlhdCI6MTY3MTU1NDQ5NSwiZXhwIjoxNjc0MTQ2NDk1fQ.VtR-ZhpBlBS9Wu5ewymnP64JE1g2MJj1rXBdWDwUFa4
+
+{
+    "title": "title 4 updated"
+}
+
+
+
+###
+POST http://localhost:5000/api/posts/638ac9c9611fd6e153b657ac/comment/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzODliYTgyNmE4MTUzODliZjgwMmRmYSIsImlhdCI6MTY2OTk4NDk1OSwiZXhwIjoxNjcyNTc2OTU5fQ.wdvk0PcEGd7fYU26t0vYSUIkjJ5DzaeHrt-x9t3UHhM
+
+{
+    "content": "I am a Muslim."
+}
+

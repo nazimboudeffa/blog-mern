@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-page {
+  h1,h2, h3, h4, h4 {
+    @apply font-semibold text-gray-800 pt-10 pb-5
+  }
+  
+  p {
+    @apply text-xl pb-2 ;
+    line-height: 1.8;
+  }
+}
+
+h1 {
+  @apply text-6xl
+}
+
+h2 {
+  @apply text-5xl
+}
+
+h3 {
+  @apply text-4xl
+}
+
+h4 {
+  @apply text-3xl
+}
+
+h5 {
+  @apply text-2xl
+}
+
+
+
+.sidebar {
+  @apply fixed right-0 top-0 bg-gray-900 text-white w-[210px] h-screen p-5 flex flex-col;
+}
+
+.btn {
+  @apply  px-4 py-1 text-gray-50
+}
+
+.submit-btn {
+  @apply bg-blue-700 px-5 py-2 
+}
+
+.form-wrapper {
+  @apply w-[500px] mx-auto flex flex-col h-screen justify-center items-center
+}
+
+.form {
+  @apply bg-gray-100 px-10 py-16;
+
+}
+
+input,
+textarea {
+  border: 1px solid lightblue;
+  padding: .5rem 1rem;
+  margin-bottom: .5rem;
+}
+
+// navbar
+.nav-link a {
+  @apply px-2 hover:text-blue-700
+}
+
+.mobile-nav {
+  @apply block md:hidden p-4 fixed top-[60px] bg-gray-800 w-full h-screen duration-500
+}
+
+
+.spinner {
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
