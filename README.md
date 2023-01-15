@@ -1,20 +1,6 @@
 # Devlog
 
-A Multi author blog application with MERN
-
-### [Live Preview](https://devlogg.onrender.com/)
-
-## Table Of Content:
-
-## 1. [Backend](#backend)
-- [End points](#endpoints)
-- [Technologies used](#technologies-used)
-- [Getting started](#getting-started)
-
-## 2. [Frontend](#frontend)
-
-
----------------------
+Original Repo https://github.com/Coderamrin/devlog
 
 # Backend
 
@@ -26,8 +12,6 @@ JWT_SECRET=mysecret
 ```
 
 ## Endpoints
-
-**Base URL** : https://devlog.onrender.com/
 
 **User**
 
@@ -96,6 +80,6 @@ npm run start
 ```
 
 
-## Frontend
+# Frontend
 
 Set `REACT_APP_API` to the url of the backend
