@@ -91,6 +91,7 @@ npm run start
 
 ## Frontend
 
+Set `REACT_APP_API` to the url of the backend
 
 ## Project Preview
 
