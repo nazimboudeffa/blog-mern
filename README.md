@@ -1,4 +1,4 @@
-# Devlog
+# Blog MERN
 
 Original Repo https://github.com/Coderamrin/devlog
 
