@@ -4,13 +4,6 @@ Original Repo https://github.com/Coderamrin/devlog
 
 # Backend
 
-Set the env var in a .env file
-
-```
-DB_URL="mongodb+srv://nazimboudeffa:<password>@cluster0.fruqwgc.mongodb.net/?retryWrites=true&w=majority"
-JWT_SECRET=mysecret
-```
-
 ## Endpoints
 
 **User**
@@ -59,8 +52,9 @@ JWT_SECRET=mysecret
 **Clone the repo**
 
 ```
-git clone https://github.com/Coderamrin/devlog.git
-cd devlog
+git clone https://github.com/nazimboudeffa/blog-mern.git
+cd blog-mern
+cd backend
 ```
 
 **Set up env file**
@@ -68,6 +62,13 @@ cd devlog
 DB_URL=[DB url to connect the database with the server]
 PORT=[developement port]
 JWT_SECRET=[jasonwebtoken secret for token]
+```
+
+**Example**
+
+```
+DB_URL="mongodb+srv://nazimboudeffa:<password>@cluster0.fruqwgc.mongodb.net/?retryWrites=true&w=majority"
+JWT_SECRET=mysecret
 ```
 
 **Install and start**
