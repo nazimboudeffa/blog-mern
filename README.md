@@ -18,6 +18,13 @@ A Multi author blog application with MERN
 
 # Backend
 
+Set the env var in a .env file
+
+```
+DB_URL="mongodb+srv://nazimboudeffa:<password>@cluster0.fruqwgc.mongodb.net/?retryWrites=true&w=majority"
+JWT_SECRET=mysecret
+```
+
 ## Endpoints
 
 **Base URL** : https://devlog.onrender.com/
