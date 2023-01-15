@@ -99,11 +99,3 @@ npm run start
 ## Frontend
 
 Set `REACT_APP_API` to the url of the backend
-
-## Project Preview
-
-![blog home page](img-1.png)
-
-![blog article page](img-2.png)
-
-![blog dashboard page](img-3.png)
